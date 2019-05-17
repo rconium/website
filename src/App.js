@@ -1,9 +1,47 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Person from './Person/Person';
+//import Person from './Person/Person';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './Components/main';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
+  render() {
+    return (
+      <div>
+        {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
+        <div className="demo-big-content">
+          <Layout>
+            <Header title="Title" scroll>
+              <Navigation>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+              </Navigation>
+            </Header>
+            <Drawer title="Title">
+              <Navigation>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+              </Navigation>
+            </Drawer>
+            <Content>
+              <div className="page-content" />
+              <Main/>
+            </Content>
+          </Layout>
+        </div>
+      </div>
+    );
+  }
+  
+  // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
+}
+
+{/*class App extends Component {
   state = {
     persons: [
       {name: 'Richard', age: 23}, 
@@ -68,7 +106,7 @@ class App extends Component {
   }
   
   // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
-}
+}*/}
 
 {/* <div className="App">
       <header className="App-header">
