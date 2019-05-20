@@ -11,7 +11,7 @@ class App extends Component {
         {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
         <div className="demo-big-content">
           <Layout>
-            <Header className="header-color" title="Title" scroll>
+            <Header className="header-color" title="Richard Conol Remigoso, Jr." scroll>
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
@@ -19,7 +19,7 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
               </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer title="Richard Conol Remigoso, Jr.">
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>

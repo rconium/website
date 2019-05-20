@@ -7,11 +7,11 @@ class Home extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="home-grid">
                     <Cell col={12}>
-                        {/*<img
+                        <img
                             src="https://www.shareicon.net/data/256x256/2016/11/21/854794_r2d2_512x512.png"
                             alt="avatar"
                             className="avatar-img"
-                        />*/}
+                        />
                         <div className="banner-text">
                             <h1>Computer Engineering Student</h1>
                             <hr/>
