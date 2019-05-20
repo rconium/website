@@ -40,7 +40,7 @@ class App extends Component {
   // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
 }
 
-{/*class App extends Component {
+/*class App extends Component {
   state = {
     persons: [
       {name: 'Richard', age: 23}, 
@@ -105,9 +105,9 @@ class App extends Component {
   }
   
   // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
-}*/}
+}*/
 
-{/* <div className="App">
+/* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -122,6 +122,6 @@ class App extends Component {
           Learn React
         </a>
       </header> 
-    </div> */}
+    </div> */
 
 export default App;
