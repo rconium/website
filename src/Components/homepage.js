@@ -38,6 +38,9 @@ class Home extends Component {
                                 </a>
                             </div>
                         </div>
+                    <footer>
+                        <p style={{ fontSize: '15px', fontFamily: 'Oxygen', textAlign: 'center', justifyContent: 'center' }}>Richard C. Remigoso, Copyright &copy; 2019</p>
+                    </footer>
                     </Cell>
                 </Grid>
             </div>

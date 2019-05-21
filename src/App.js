@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import HomePage from './Components/homepage';
-import AboutMe from './Components/aboutme';
 import Contact from './Components/contact';
 import Projects from './Components/projects';
 import Resume from './Components/resume';
@@ -40,7 +39,7 @@ class App extends Component {
                 <Route path="/contact" component={Contact} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/resume" component={Resume} />
-            </Switch>
+              </Switch>
             </Content>
           </Layout>
         </div>
