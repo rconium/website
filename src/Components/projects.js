@@ -8,7 +8,7 @@ class Projects extends Component {
     }
 
     toggleCategories(){
-        if (this.state.activeTab == 0) {
+        if (this.state.activeTab === 0) {
             return(
                 <div className="projects-grid">
                     {/* Project 1 */}
@@ -61,21 +61,21 @@ class Projects extends Component {
                 </div>
             )
         }
-        else if (this.state.activeTab == 1) {
+        else if (this.state.activeTab === 1) {
             return(
                 <div>
                     <h1>This is C++</h1>
                 </div>
             )
         }
-        else if (this.state.activeTab == 2) {
+        else if (this.state.activeTab === 2) {
             return(
                 <div>
                     <h1>This is JAVA</h1>
                 </div>
             )
         }
-        else if (this.state.activeTab == 3) {
+        else if (this.state.activeTab === 3) {
             return(
                 <div>
                     <h1>This is nodeJS</h1>
