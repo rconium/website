@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
+import HomePage from './Components/homepage';
+import AboutMe from './Components/aboutme';
+import Contact from './Components/contact';
+import Projects from './Components/projects';
+import Resume from './Components/resume';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from './Components/main';
-import { Link } from 'react-router-dom';
+import { Link, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -29,7 +33,14 @@ class App extends Component {
             </Drawer>
             <Content>
               <div className="page-content" />
-              <Main/>
+              <Switch>
+                <Route exact path="/website" component={HomePage} />
+                <Route exact path="/" component={HomePage} />
+                <Route path="/aboutme" component={AboutMe} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/projects" component={Projects} />
+                <Route path="/resume" component={Resume} />
+            </Switch>
             </Content>
           </Layout>
         </div>
