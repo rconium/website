@@ -17,7 +17,7 @@ class App extends Component {
             <Header className="header-color" title="Richard Conol Remigoso, Jr." scroll>
               <Navigation>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/resume" target="_blank" onClick={(event) => {event.preventDefault(); window.open(this.makeHref("/resume"));}} >Resume</Link>
+                <Link to="/resume" onClick={(event) => {event.preventDefault(); window.open("https://drive.google.com/file/d/164KZUuoy_Fx60UNHN0qJT6SL5fukU2Zg/view?usp=sharing", "_blank")}} >Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
@@ -25,7 +25,7 @@ class App extends Component {
             <Drawer title="Richard Conol Remigoso, Jr.">
               <Navigation>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/resume" target="_blank" onClick={(event) => {event.preventDefault(); window.open(this.makeHref("/resume"));}} >Resume</Link>
+                <Link to="/resume" onClick={(event) => {event.preventDefault(); window.open("https://drive.google.com/file/d/164KZUuoy_Fx60UNHN0qJT6SL5fukU2Zg/view?usp=sharing", "_blank")}} >Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
@@ -38,7 +38,6 @@ class App extends Component {
                 <Route path="/aboutme" component={HomePage} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/projects" component={Projects} />
-                <Route path="/resume" component={Resume} />
               </Switch>
             </Content>
           </Layout>
