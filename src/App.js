@@ -17,7 +17,7 @@ class App extends Component {
             <Header className="header-color" title="Richard Conol Remigoso, Jr." scroll>
               <Navigation>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume" target="_blank" onClick={(event) => {event.preventDefault(); window.open(this.makeHref("/resume"));}} >Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
@@ -25,7 +25,7 @@ class App extends Component {
             <Drawer title="Richard Conol Remigoso, Jr.">
               <Navigation>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume" target="_blank" onClick={(event) => {event.preventDefault(); window.open(this.makeHref("/resume"));}} >Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
