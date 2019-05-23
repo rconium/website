@@ -4,7 +4,7 @@ class Resume extends Component {
     render() {
         return(
             <div>
-                <h1>Resume Page</h1>
+                <iframe title="Resume" src="https://drive.google.com/file/d/164KZUuoy_Fx60UNHN0qJT6SL5fukU2Zg/view?usp=sharing" width="100%" height="auto"></iframe>
             </div>
         )
     }
