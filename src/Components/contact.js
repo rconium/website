@@ -39,9 +39,6 @@ class Contact extends Component {
                         </div>
                     </Cell>
                 </Grid>
-                <footer>
-                    <p style={{ fontSize: '15px', fontFamily: 'Oxygen', textAlign: 'center' }}>Richard C. Remigoso, Copyright &copy; 2019</p>
-                </footer>
             </div>
         )
     }

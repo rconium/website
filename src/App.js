@@ -2,9 +2,8 @@ import React, {Component} from 'react';
 import HomePage from './Components/homepage';
 import Contact from './Components/contact';
 import Projects from './Components/projects';
-import Resume from './Components/resume';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import { Link, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -39,9 +38,14 @@ class App extends Component {
                 <Route path="/contact" component={Contact} />
                 <Route path="/projects" component={Projects} />
               </Switch>
+              <footer>
+                <p style={{ fontSize: '15px', fontFamily: 'Oxygen', textAlign: 'center' }}>Richard C. Remigoso, Copyright &copy; 2019</p>
+              </footer>
             </Content>
           </Layout>
+        
         </div>
+        
       </div>
     );
   }
