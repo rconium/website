@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import ContactPic from '../images/contactPic.jpeg';
 
 class Contact extends Component {
     render() {
@@ -10,12 +10,12 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Dio Brando</h2>
                         <img 
-                        src="https://i.kym-cdn.com/photos/images/original/000/974/149/f82.png"
+                        src={ContactPic}
                         alt="avatar"
                         style={{ height: '250px' }}
                         />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-                            MUDA MUDA MUDA MUDA MUDA MUDA MUDA! ORA ORA ORA ORA ORA ORA ORA ORA ORA ORAO ORA!
+                            Design. Build. Code.
                         </p>
                     </Cell>
                     <Cell col={6}>
