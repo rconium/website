@@ -25,7 +25,6 @@ class Home extends Component {
                                 views. One of which, I now consider myself as a lifelong learner. Other than technology, I am very much interested in hiking, travelling, and participating in 
                                 sports activities, particularly in tennis and basketball. 
                             </p>
-                            <p>Fun fact(s): I've swam with whale sharks in the Philippines, and hiked 2 famous fjords in Norway: Trolltunga and Preikestolen!</p>
                             <hr/>
                             <p>C++ | C | Python | Java | Embedded Systems | Assembly Language</p>
                             <div className="social-links">
