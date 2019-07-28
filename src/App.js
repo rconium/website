@@ -13,7 +13,7 @@ class App extends Component {
         {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
         <div className="demo-big-content">
           <Layout>
-            <Header className="header-color" title="Richard Conol Remigoso, Jr." scroll>
+            <Header className="header-color" title="Richard Conol Remigoso" scroll>
               <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
@@ -41,13 +41,10 @@ class App extends Component {
                   </Switch>
                 </div>
                 <footer id="footer">
-                Richard C. Remigoso, Jr., Copyright &copy; 2019
+                Richard C. Remigoso, Copyright &copy; 2019
                 </footer>
               </div>
               
-              {/*<footer>
-                <p style={{ fontSize: '15px', fontFamily: 'Oxygen', textAlign: 'center' }}>Richard C. Remigoso, Jr., Copyright &copy; 2019</p>
-              </footer>*/}
             </Content>
           </Layout>
         
