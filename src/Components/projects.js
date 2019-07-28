@@ -19,7 +19,7 @@ class Projects extends Component {
                             Personal Website
                         </CardText>
                         <CardActions border>
-                            <Button colored href="https://github.com/deNuru/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
+                            <Button colored href="https://github.com/rconium/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -40,7 +40,7 @@ class Projects extends Component {
                             Personal Website
                         </CardText>
                         <CardActions border>
-                            <Button colored href="https://github.com/deNuru/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
+                            <Button colored href="https://github.com/rconium/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
@@ -100,7 +100,7 @@ class Projects extends Component {
                             Personal Website
                         </CardText>
                         <CardActions border>
-                            <Button colored href="https://github.com/deNuru/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
+                            <Button colored href="https://github.com/rconium/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
                             <Button colored>Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>

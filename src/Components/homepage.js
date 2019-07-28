@@ -34,7 +34,7 @@ class Home extends Component {
                                 </a>
 
                                 {/* GitHub */}
-                                <a href="https://github.com/deNuru" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/rconium" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
 
