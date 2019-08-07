@@ -1,3 +1,6 @@
+## Deployed URL
+Open https://rconium.github.io/website/ to view a deployed version of the website.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
