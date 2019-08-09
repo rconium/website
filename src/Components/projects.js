@@ -112,9 +112,14 @@ class Projects extends Component {
         }
     }
 
+    popup() {
+        alert("Heads up! Projects page is still under construction!");
+      }
+
     render() {
         return(
-            <div>
+            <div className="popup">
+                {this.popup()}
                 <Tabs className="category-tabs" activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID})} ripple>
                     <Tab>C++</Tab>
                     <Tab>Python</Tab>
