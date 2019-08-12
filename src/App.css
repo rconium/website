@@ -88,7 +88,7 @@
   height: 100%;
   justify-content: center;
   min-height: 100%;
-  padding-top: 20em;
+  padding-top: 10em;
 }
 
 .contact-grid {
@@ -126,6 +126,7 @@
 
 .contact-item {
   font-size: 30px;
+  justify-content: center;
   font-family: 'Anton';
   color: gainsboro;
 }

@@ -11,6 +11,7 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return(
                 <div className="projects-grid">
+                    {/* {alert("Heads up! C++ page is still under construction!")} */}
                     {/* Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', 
@@ -85,6 +86,7 @@ class Projects extends Component {
         else if (this.state.activeTab === 2) {
             return(
                 <div>
+                    {alert("Heads up! JAVA page is still under construction!")}
                     <h1>This is JAVA</h1>
                 </div>
             )
@@ -92,16 +94,16 @@ class Projects extends Component {
         else if (this.state.activeTab === 3) {
             return(
                 <div className="projects-grid">
-                    {/* Project 1 */}
+                    {/* Project 4 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', 
-                        background: 'url(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png) center / cover'}}>React Project</CardTitle>
+                        background: 'url(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png) center / cover'}}>Personal Website</CardTitle>
                         <CardText>
-                            Personal Website
+                            Created my own personal portfolio for information about me and showcases my projects. You are in it right now! 
                         </CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/rconium/website" rel="noopener noreferrer" target="_blank">GitHub</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored href="https://rconium.github.io/website">Live Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"/>
@@ -112,14 +114,9 @@ class Projects extends Component {
         }
     }
 
-    popup() {
-        alert("Heads up! Projects page is still under construction!");
-      }
-
     render() {
         return(
-            <div className="popup">
-                {this.popup()}
+            <div>
                 <Tabs className="category-tabs" activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID})} ripple>
                     <Tab>C++</Tab>
                     <Tab>Python</Tab>
