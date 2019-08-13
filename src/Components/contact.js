@@ -37,23 +37,32 @@ class Contact extends Component {
                         </div>
                     </Cell>
                     <Cell col={6}>
-                        <div>
-                            {/* Textfield with floating label */}
-                            <Textfield
-                                onChange={() => {}}
-                                label="Text..."
-                                floatingLabel
-                                style={{width: '200px'}}
-                            />
+                        <div className="contact-banner-email">
+                            <form style={{background:"yellow"}}>
+                                {/* Textfield with floating label */}
+                                <Textfield
+                                    onChange={() => {}}
+                                    label="Your name"
+                                    floatingLabel
+                                    style={{width: '100%', fontStyle: 'italic'}}
+                                />
 
-                            {/* Numeric Textfield with floating label */}
-                            <Textfield
-                                onChange={() => {}}
-                                pattern="-?[0-9]*(\.[0-9]+)?"
-                                error="Input is not a number!"
-                                label="Number..."
-                                floatingLabel
-                            />
+                                {/* Textfield with floating label */}
+                                <Textfield
+                                    onChange={() => {}}
+                                    label="Your email"
+                                    floatingLabel
+                                    style={{width: '100%', fontStyle: 'italic'}}
+                                />
+
+                                {/* Floating Multiline Textfield */}
+                                <Textfield
+                                    onChange={() => {}}
+                                    label="Email Content:"
+                                    rows={3}
+                                    style={{width: '100%', fontStyle: 'italic'}}
+                                />
+                            </form>         
                         </div>
                         
                     </Cell>
